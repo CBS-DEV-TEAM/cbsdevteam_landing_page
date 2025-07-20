@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Edge';
+  src: url('./assets/fonts/Edges.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
