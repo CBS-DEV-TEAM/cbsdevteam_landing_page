@@ -9,6 +9,9 @@ function Navbar(){
                     <li className="text-white py-2 px-3 ml-5 font-medium text-sm"><a href="#">INICIO</a></li>
                     <li className="text-white py-2 px-3 ml-5 font-medium text-sm"><a href="#">NUESTROS PRODUCTOS</a></li>
                     <li className="text-white py-2 px-3 ml-5 font-medium text-sm"><a href="#">ACERCA DE</a></li>
+                    <li className="text-white py-2 px-3 ml-5 font-medium text-sm"><a href="#Hero">INICIO</a></li>
+                    <li className="text-white py-2 px-3 ml-5 font-medium text-sm"><a href="#Products">NUESTROS PRODUCTOS</a></li>
+                    <li className="text-white py-2 px-3 ml-5 font-medium text-sm"><a href="#About">ACERCA DE</a></li>
                 </ul>
             </nav>
         </>

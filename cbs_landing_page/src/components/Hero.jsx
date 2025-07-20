@@ -3,7 +3,7 @@ import tablet from '../assets/mockup_tablet.svg'
 function Hero(){
     return(
         <>
-            <div className="w-200 flex items-center flex-col">
+            <div className="w-200 flex items-center flex-col" id='Hero'>
                 <p className="text-white text-center text-6xl font-bold mb-12">
                     Software de calidad para cubrir tus necesidades
                 </p>
