@@ -4,8 +4,6 @@ import Navbar from './components/Navbar.jsx'
 import Hero from './components/Hero.jsx'
 import Bento from './components/Bento.jsx'
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
       <Navbar />
