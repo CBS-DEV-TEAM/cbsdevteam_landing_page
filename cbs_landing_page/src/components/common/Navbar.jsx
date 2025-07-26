@@ -1,6 +1,7 @@
 import './Navbar.css'
 import { useEffect, useRef } from 'react'
 import { motion, useAnimation, useScroll } from 'motion/react'
+import { Link } from 'react-router-dom'
 
 function Navbar(){
     const { scrollYProgress } = useScroll()
@@ -52,12 +53,12 @@ function Navbar(){
                 >
                     <h1 className="self-center text-navbar-blue text-2xl mix-blend-multiply font-righteous">CBSDevteam</h1>
                     <ul className="flex self-center justify-center gap-5">
-                        <li className="text-navbar-blue font-medium text-sm"><a href="../../../index.html" className="navbar-element px-3 py-2">INICIO</a></li>
-                        <li className="text-navbar-blue font-medium text-sm"><a href="../../../products.html" className="navbar-element px-3 py-2">NUESTROS PRODUCTOS</a></li>
-                        <li className="text-navbar-blue font-medium text-sm"><a href="../../../about.html" className="navbar-element px-3 py-2">SOBRE NOSOTROS</a></li>
+                        <li className="text-navbar-blue font-medium text-sm"><Link to="/" className="navbar-element px-3 py-2">INICIO</Link></li>
+                        <li className="text-navbar-blue font-medium text-sm"><Link to="/products" className="navbar-element px-3 py-2">NUESTROS PRODUCTOS</Link></li>
+                        <li className="text-navbar-blue font-medium text-sm"><Link to="/about" className="navbar-element px-3 py-2">SOBRE NOSOTROS</Link></li>
                     </ul>
                 </motion.div>
-            </nav>
+            </nav>/
         </>
     )
 }
