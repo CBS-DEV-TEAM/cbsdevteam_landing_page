@@ -9,7 +9,7 @@ function ProductCard(){
             variants={fadeInUp}
             initial="hidden"
             animate="visible"
-            className="min-w-150 min-h-90 bg-blue-300/30 rounded-2xl"
+            className="min-w-[37.5rem] min-h-[22.5rem] bg-blue-300/30 rounded-2xl"
             ></motion.div>
         </ScrollAnimation>
     )

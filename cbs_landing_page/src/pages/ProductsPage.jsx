@@ -1,7 +1,7 @@
+import '@/src/index.css'
 import Navbar from '../components/common/Navbar.jsx'
 import ProductsGrid from '../components/Products/ProductsGrid.jsx'
 import Footer from '../components/common/Footer.jsx'
-import '../theme.css'
 import { fadeInUp } from '../components/animations/fadeInUp.js'
 import { motion } from 'motion/react'
 

@@ -1,9 +1,8 @@
-import '@/src/theme.css'
+import '@/src/index.css'
 import Navbar from '@/src/components/common/Navbar.jsx'
 import Jairo from '@/src/assets/image.png'
 import Footer from '@/src/components/common/Footer.jsx'
 import AboutBlock from '@/src/components/About/AboutBlock.jsx'
-import ScrollAnimation from '@/src/components/common/ScrollAnimation.jsx'
 
 function AboutPage(){
     const MISSION_TEXT = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum corporis pariatur vel perspiciatis quia asperiores suscipit nemo quibusdam mollitia maxime commodi iste possimus est corrupti, incidunt et adipisci ab fuga consequatur eligendi repudiandae veniam tempora. Cupiditate vitae dolorum iusto accusamus numquam quas magnam praesentium, ipsam sunt, libero aperiam. Fugiat, iure!"
@@ -19,7 +18,7 @@ function AboutPage(){
             <main className="h-full flex flex-col py-35 px-80 gap-40">
                 <section className="flex justify-between items-center gap-30 pt-20">
                     <h1 className="text-6xl text-navy-blue-900 font-semibold font-quicksand">Sobre nosotros</h1>
-                    <p className="w-150 text-xl text-navy-blue-700 font-kanit font-[300]">
+                    <p className="w-[37.5rem] text-xl text-navy-blue-700 font-kanit font-[300]">
                         Somos un equipo de desarrollo formado por personas apasionadas por el mundo de la programación y la craeción de software. Movidos por la motivación y el amor que tenemos por este arte, creamos software con la finalidad de proveer herramientas a las personas para facilitar ciertas actividades y procesos.
                     </p>
                 </section>

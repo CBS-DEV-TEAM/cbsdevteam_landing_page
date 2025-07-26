@@ -1,6 +1,4 @@
-import { useEffect } from 'react'
 import tablet from '../../assets/mockup_tablet.svg'
-import '../../theme.css'
 import { motion } from 'motion/react'
 import { fadeInUp } from '../animations/fadeInUp.js'
 
@@ -8,7 +6,7 @@ function Hero(){
     return(
         
         <>
-            <div className="w-200 flex items-center flex-col gap-10" id='Hero'>
+            <div className="w-[50rem] flex items-center flex-col gap-10" id='Hero'>
                 <motion.p 
                 variants={fadeInUp}
                 initial="hidden"

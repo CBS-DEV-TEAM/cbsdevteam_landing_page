@@ -1,5 +1,4 @@
 import './Navbar.css'
-import '../../theme.css'
 import { useEffect, useRef } from 'react'
 import { motion, useAnimation, useScroll } from 'motion/react'
 
